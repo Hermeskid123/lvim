@@ -1,1 +1,5 @@
-/home/preston/.config/lvim/config.lua
+vim.opt.mouse="nv"
+
+
+
+
