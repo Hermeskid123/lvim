@@ -38,3 +38,6 @@ vim.opt.mouse = "nv"
 lvim.log.level = "warn"
 lvim.format_on_save = true
 vim.opt.shiftwidth = 4
+
+lvim.keys.normal_mode["gt"] = ":BufferLineCycleNext<CR>"
+lvim.keys.normal_mode["gT"] = ":BufferLineCyclePrev<CR>"
